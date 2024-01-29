@@ -248,48 +248,6 @@ async function getMealDetails(id){
 
 
     
-// let ingredients=``
-// for(let i=0 ;i<=20;i++){
-//     if(detail[`strIngredient ${i}`]){
-//         ingredients +=`<li class="alert alert-info m-2 p-1">${detail[`strMeasure${i}`]} ${detail[`strIngredient${i}`]}</li>`
-//     }
-//     let tags = detail.strTags.split(",")
-//     let tagsStr = ''
-//     for (let i = 0; i < tags.length; i++) {
-//         tagsStr += `
-//         <li class="alert alert-danger m-2 p-1">${tags[i]}</li>`
-//     }
-
-
-
-//     let cartoona = `
-//     <div class="col-md-4">
-//                 <img class="w-100 rounded-3" src="${detail.strMealThumb}" alt="">
-                    
-//                     <h2>${detail.strMeal}</h2>
-//             </div>
-//             <div class="col-md-8">
-//                 <h2>Instructions</h2>
-//                 <p>${detail.strInstructions}</p>
-//                 <h3><span class="fw-semibold">Area : </span>${detail.strArea}</h3>
-//                 <h3><span class="fw-semibold">Category : </span>${detail.strCategory}</h3>
-//                 <h3>Recipes :</h3>
-//                 <ul class=" d-flex g-3 flex-wrap">
-//                     ${ingredients}
-//                 </ul>
-
-//                 <h3>Tags :</h3>
-//                 <ul class=" d-flex g-3 flex-wrap">
-//                     ${tagsStr}
-//                 </ul>
-
-//                 <a  href="${detail.strSource}" class="btn btn-success">Source</a>
-//                 <a  href="${detail.strYoutube}" class="btn btn-danger">Youtube</a>
-//             </div>`
-
-//     document.getElementById('#rowData') = cartoona
-// }
-//   }
 
 
 
